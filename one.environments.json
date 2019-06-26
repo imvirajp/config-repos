@@ -6,6 +6,5 @@
       "value": "value"
     }
   ],
-  "agents": ["a24463bc-c21e-43ad-9f99-313f0ebc7afe"],
-  "pipelines": ["some-pipelines"]
+  "pipelines": ["json-pipeline"]
 }
