@@ -1,0 +1,11 @@
+{
+  "name": "dev",
+  "environment_variables": [
+    {
+      "name": "key1",
+      "value": "value"
+    }
+  ],
+  "agents": ["a24463bc-c21e-43ad-9f99-313f0ebc7afe"],
+  "pipelines": ["some-pipelines"]
+}

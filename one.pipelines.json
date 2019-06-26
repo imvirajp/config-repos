@@ -1,0 +1,29 @@
+{
+  "name": "json-config-repo",
+  "group": "go-cd",
+  "materials": [
+    {
+      "name": "my-git",
+      "type": "git",
+      "url": "https://github.com/viraj2712/blockAndBrick.git",
+      "branch": "master",
+      "destination": "foo"
+    }
+  ],
+  "stages": [
+    {
+      "name": "test",
+      "jobs": [
+        {
+          "name": "build",
+          "tasks": [
+            {
+              "type": "exec",
+              "command": "ls"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
