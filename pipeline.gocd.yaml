@@ -11,7 +11,7 @@ pipelines:
         shallow_clone: false
         auto_update: true
         branch: master
-        encrypted_password: AES:xdrx/ilIq0/v7gFwnLJHIA==:s4GuvBFK8UL/vTzU1IqzNw==
+        password: AES:xdrx/ilIq0/v7gFwnLJHIA==:s4GuvBFK8UL/vTzU1IqzNw==
       asfd:
         ignore_for_scheduling: true
         pipeline: up42
